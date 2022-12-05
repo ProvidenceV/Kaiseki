@@ -5,7 +5,9 @@
     --kaiseki-white: #F5F1ED;
     --kaiseki-grey: #A09C92;
     background-color: var(--kaiseki-black);
-    color: var(--kaiseki-white)
+    color: var(--kaiseki-white);
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
 }
 /* title component css */
 .title{
@@ -96,4 +98,82 @@ video{
     justify-content: lefg;
     align-items: center;
     color: black;
+}
+
+/* divs next to each other */
+.customer-nav-wrapper{
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+.customer-view-1{
+    width:50%;
+    float:left; /* add this */
+    border: 1px solid red;
+    text-align: center;
+    box-sizing: border-box;
+}
+.customer-view-2{
+    width:50%;
+    border: 1px solid green;
+    float: left; /* add this */
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    box-sizing: border-box;
+}
+.customer-view-3{
+    width:50%;
+    border: 1px solid green;
+    float: left; /* add this */
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    box-sizing: border-box;
+}
+.customer-view-4{
+    width:50%;
+    border: 1px solid green;
+    float: left; /* add this */
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    box-sizing: border-box;
+}
+.restauraunt-nav-wrapper{
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+.restauraunt-view-1{
+    width:50%;
+    float:left; /* add this */
+    border: 1px solid red;
+    text-align: center;
+    box-sizing: border-box;
+}
+.restauraunt-view-2{
+    width:50%;
+    border: 1px solid green;
+    float: left; /* add this */
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    box-sizing: border-box;
+}
+.restauraunt-view-3{
+    width:50%;
+    border: 1px solid green;
+    float: left; /* add this */
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    box-sizing: border-box;
+}
+.restauraunt-view-4{
+    width:50%;
+    border: 1px solid green;
+    float: left; /* add this */
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    box-sizing: border-box;
 }
