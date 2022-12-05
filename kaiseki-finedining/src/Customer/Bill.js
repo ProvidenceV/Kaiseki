@@ -1,7 +1,8 @@
 export default function Bill(){
     return(
         <>
-        <div>
+        <div className="bill-container-parent">
+            <div className="bill-container-child">
             <p>Bill goes here</p>
             <table>
                 <tr>
@@ -50,6 +51,7 @@ export default function Bill(){
             <input type="text" data-field="card-ccv" />
             <button>Submit</button>
             <p>Your information is securely processed by BigBankCorperation</p>
+            </div>
         </div>
         </>
     )

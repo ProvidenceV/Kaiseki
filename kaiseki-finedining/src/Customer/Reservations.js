@@ -2,7 +2,8 @@ export default function Reservations(){
     return(
         <>
         <div>
-            <div className="reservation-form">
+            <div className="reservation-form-parent">
+            <div className="reservation-form-child">
                 <h1>Reservations</h1>
                 <p>First Name:</p>
                 <input type="text" data-field="first-name" />
@@ -19,6 +20,7 @@ export default function Reservations(){
                 <p>Time</p>
                 <input type="text" data-field="time" />
                 <button>Submit</button>
+            </div>
             </div>
         </div>
         </>

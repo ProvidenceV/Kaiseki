@@ -115,6 +115,7 @@ video{
     border: 1px solid var(--kaiseki-red);
     text-align: center;
     box-sizing: border-box;
+    
 }
 .customer-view-2{
     width:50%;
@@ -303,4 +304,30 @@ video{
     padding: 5px;
     color: #FFFFFF;
     font-size:16px;
+}
+.bill-container-parent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bill-container-child{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.reservation-form-parent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservation-form-child{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }

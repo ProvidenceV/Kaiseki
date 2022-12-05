@@ -16,7 +16,7 @@ export default function Menu(){
           <div className="menu-sections">
           <hr className="break-view" />
             <div className="menu-section-drinks">
-                  <h1>Drinks</h1>
+            <h1 className="menu-section-drinks-header">Drinks</h1>
                   <div className="menu-row">
                     <div className="menu-column">
                       <div className="menu-card"><img className="menu-images" alt="drink1" src={images['drink1.jpg']}/><p className="menu-card-description">stuff here</p></div>

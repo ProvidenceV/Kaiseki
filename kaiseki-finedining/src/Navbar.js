@@ -14,13 +14,13 @@ function Navbar(){
    }else if(state.view === "restauraunt"){
         navType = <RestaurauntNav />;
    }
-   //why doesn't this update
-   if(window.location.pathname === "Restauraunt"){
-        navType = <RestaurauntNav />;
-   }
-   else if(window.location.pathname === "Customer"){
-        navType = <CustomerNav />;
-   }
+//    //why doesn't this update
+//    if(window.location.pathname === "Restauraunt"){
+//         navType = <RestaurauntNav />;
+//    }
+//    else if(window.location.pathname === "Customer"){
+//         navType = <CustomerNav />;
+//    }
 
     return(
         <>
