@@ -1,5 +1,7 @@
-
 import React from "react"
+import RestaurauntMetrics from "./RestaurauntMetrics"
+import RestaurauntOrdering from "./RestaurauntOrdering"
+import RestaurauntSchedule from "./RestaurauntSchedule"
 
 class RestaurauntNav extends React.Component{
 

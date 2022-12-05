@@ -2,13 +2,18 @@ import CustomerNav from "./Customer/CustomerNav"
 import RestaurauntNav from "./Restauraunt/RestaurauntNav"
 import "./navbarstyle.css"
 
-const state = {
-    view: "customer"
-};  
 
-export default function Navbar(){
 
-   
+function Navbar(){
+    const state = {
+        view: "customer"
+    };
+    let navType;  
+   if(state.view === "customer"){
+        navType = <CustomerNav />;
+   }else if(state.view === "restauraunt"){
+        navType = <RestaurauntNav />;
+   }
 
     return(
         <>
@@ -30,9 +35,10 @@ export default function Navbar(){
                 </li>
             </ul>
             <div>
-                {state.view === "customer" ? <CustomerNav /> : <RestaurauntNav /> }
+                {navType}
             </div>
         </nav>
         </>
     )
 }
+export default Navbar

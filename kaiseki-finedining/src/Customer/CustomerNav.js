@@ -1,4 +1,9 @@
 import React from "react"
+import About from "./About"
+import Bill from "./Bill"
+import Menu from "./Menu"
+import Reservations from "./Reservations"
+
 
 class CustomerNav extends React.Component{
 
