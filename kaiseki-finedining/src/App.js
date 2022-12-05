@@ -1,6 +1,7 @@
 import Navbar from "./Navbar"
 import Title from "./Title"
 import Hero from "./Hero"
+import Footer from "./Footer"
 import "./base.css"
 
 import About from "./Customer/About"
@@ -59,6 +60,9 @@ function App() {
       </div>
       <div class="inner">
         {Component}
+      </div>
+      <div class="inner">
+        <Footer />
       </div>
     </div>
     </>
