@@ -33,14 +33,7 @@ function Navbar(){
                     <p id="restauraunt" onClick={() => {state.view = "restauraunt"}}>Restauraunt</p>
                 </div>
             </div>
-            <ul>
-                <li>
-                    <a href="/Customer">Customer</a>
-                </li>
-                <li>
-                    <a href="/Restauraunt">Restauraunt</a>
-                </li>
-            </ul>
+            <hr className="break-view" />
             <div>
                 {navType}
             </div>

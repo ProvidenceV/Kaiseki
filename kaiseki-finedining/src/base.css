@@ -98,7 +98,7 @@ video{
     float:left;
     justify-content: lefg;
     align-items: center;
-    color: black;
+    color: var(--kaiseki-white);
     font-weight: bold;
     -webkit-text-stroke-width: 0.09px;
     -webkit-text-stroke-color: var(--kaiseki-blue);
@@ -111,15 +111,15 @@ video{
 }
 .customer-view-1{
     width:50%;
-    float:left; /* add this */
-    border: 1px solid red;
+    float:left; 
+    border: 1px solid var(--kaiseki-red);
     text-align: center;
     box-sizing: border-box;
 }
 .customer-view-2{
     width:50%;
-    border: 1px solid green;
-    float: left; /* add this */
+    border: 1px solid var(--kaiseki-blue);
+    float: left; 
     text-align: center;
     vertical-align: top;
     position:relative;
@@ -127,8 +127,8 @@ video{
 }
 .customer-view-3{
     width:50%;
-    border: 1px solid green;
-    float: left; /* add this */
+    border: 1px solid var(--kaiseki-red);
+    float: left; 
     text-align: center;
     vertical-align: top;
     position:relative;
@@ -136,8 +136,8 @@ video{
 }
 .customer-view-4{
     width:50%;
-    border: 1px solid green;
-    float: left; /* add this */
+    border: 1px solid var(--kaiseki-blue);
+    float: left; 
     text-align: center;
     vertical-align: top;
     position:relative;
@@ -149,15 +149,15 @@ video{
 }
 .restauraunt-view-1{
     width:50%;
-    float:left; /* add this */
-    border: 1px solid red;
+    float:left;
+    border: 1px solid var(--kaiseki-red);
     text-align: center;
     box-sizing: border-box;
 }
 .restauraunt-view-2{
     width:50%;
-    border: 1px solid green;
-    float: left; /* add this */
+    border: 1px solid var(--kaiseki-blue);
+    float: left; 
     text-align: center;
     vertical-align: top;
     position:relative;
@@ -165,8 +165,8 @@ video{
 }
 .restauraunt-view-3{
     width:50%;
-    border: 1px solid green;
-    float: left; /* add this */
+    border: 1px solid var(--kaiseki-red);
+    float: left; 
     text-align: center;
     vertical-align: top;
     position:relative;
@@ -174,10 +174,81 @@ video{
 }
 .restauraunt-view-4{
     width:50%;
-    border: 1px solid green;
-    float: left; /* add this */
+    border: 1px solid var(--kaiseki-blue);
+    float: left; 
     text-align: center;
     vertical-align: top;
     position:relative;
     box-sizing: border-box;
+}
+.navlinks{
+    padding:15px;
+    display:block;
+    text-decoration: none;
+    color: var(--kaiseki-white)
+}
+.break-view{
+    border-style:double;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--kaiseki-grey);
+}
+.about-outer{
+    display: inline-block;
+}
+.about-inner:nth-child(even){
+    width:50%;
+    float:right;
+    clear:right;
+    border: red;
+    border-style: solid;
+    padding: 40px;
+}
+.about-inner:nth-child(odd){
+    width:50%;
+    float:left;
+    clear:left;
+    border: blue;
+    border-style: solid;
+    padding: 40px;
+}
+.menu-column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    align-items: center;
+  }
+/* Remove extra left and right margins, due to padding in columns */
+.menu-row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.menu-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-items: center;
+  display:block;
+}
+
+/* Style the counter cards */
+.menu-card {
+  box-shadow: 0 4px 8px 0 rgba(43, 80, 170, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: var(--kaiseki-grey);
+  border-style:solid;
+  border: 3px;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+
+}
+.menu-section-drinks{
+    display: flex;
+    justify-content: center;
 }

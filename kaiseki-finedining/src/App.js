@@ -28,7 +28,7 @@ function App() {
     case "/menu":
       Component = <Menu />
       break;
-    case "/reservations":
+    case "/reservation":
       Component = <Reservations />
       break;
     case "/restaurauntMetrics":
@@ -56,7 +56,6 @@ function App() {
       </div>
       <div class="inner">
         <Navbar />
-      
       </div>
       <div class="inner">
         {Component}

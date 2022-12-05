@@ -1,9 +1,4 @@
 import React from "react"
-import About from "./About"
-import Bill from "./Bill"
-import Menu from "./Menu"
-import Reservations from "./Reservations"
-
 
 class CustomerNav extends React.Component{
 
@@ -13,16 +8,16 @@ class CustomerNav extends React.Component{
         <nav className="customerNav">
             <div className="customer-nav-wrapper">
                 <div className="customer-view-1">
-                    <a href="/about">About</a>
+                    <a className="navlinks" href="/about">About</a>
                 </div>
                 <div className="customer-view-2">
-                    <a href="/reservation">Reservation</a>
+                    <a className="navlinks" href="/reservation">Reservation</a>
                 </div>
                 <div className="customer-view-3">
-                    <a href="/menu">Menu</a>
+                    <a className="navlinks" href="/menu">Menu</a>
                 </div>
                 <div className="customer-view-4">
-                    <a href="/bill">Bill</a>
+                    <a className="navlinks" href="/bill">Bill</a>
                 </div>
             </div>
         </nav>
