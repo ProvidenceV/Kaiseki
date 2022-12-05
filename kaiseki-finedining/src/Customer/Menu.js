@@ -5,7 +5,6 @@ export default function Menu(){
           <div className="menu-sections">
             <div className="menu-section-drinks">
                 <h1>Drinks</h1>
-
             </div>
             <div className="menu-section-starters">
               <h1>starters</h1>
