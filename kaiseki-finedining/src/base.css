@@ -1,0 +1,99 @@
+:root {
+    --kaiseki-black: #000000;
+    --kaiseki-red: #C5283D;
+    --kaiseki-blue: #2B50AA;
+    --kaiseki-white: #F5F1ED;
+    --kaiseki-grey: #A09C92;
+    background-color: var(--kaiseki-black);
+    color: var(--kaiseki-white)
+}
+/* title component css */
+.title{
+    background-color: lightgrey;
+    position:relative;
+    border-top-style: outset;
+    border-bottom: inset;
+    border-style:inset;
+    border-top-color: var(--kaiseki-red);
+    border-bottom-color: var(--kaiseki-blue);
+    border-width: 7px;
+    margin-block: 10px;
+    
+}
+/*logo css */
+.logo{
+    display:block;
+    margin-left: 7%;
+    max-width: 50%;
+    height:auto;
+}
+
+
+/* divs next to each other */
+.view-wrapper{
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+.view-customer{
+    width:50%;
+    float:left; /* add this */
+    border: 1px solid red;
+    text-align: center;
+    box-sizing: border-box;
+}
+.view-restauraunt{
+    width:50%;
+    border: 1px solid green;
+    float: left; /* add this */
+    text-align: center;
+    vertical-align: top;
+    position:relative;
+    box-sizing: border-box;
+}
+/*stacks divs on top of eachother */
+.outer{
+    position: relative;
+}
+.inner {
+    margin-block: 5px;
+    gap: 5 px;
+    position: relative;
+    border-style:solid;
+    border-color:white;
+    top: 0;
+    left: 0;
+}
+.hero{
+    margin:0;
+    width: 100%;
+    padding:0;
+}
+video{
+    width:100%;
+    height:0%;
+    margin:auto;
+    object-fit: fill;
+    padding:0;
+    
+}
+.overlay{
+    position:absolute;
+    text-align: left;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(0,0,0,0.4);
+}
+.hero-content{
+    position:absolute;
+    height: 100%;
+    width:100%;
+    display:flex;
+    top:0;
+    padding:150px;
+    float:left;
+    justify-content: lefg;
+    align-items: center;
+    color: black;
+}
