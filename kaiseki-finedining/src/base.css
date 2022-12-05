@@ -214,14 +214,16 @@ video{
     padding: 40px;
 }
 .menu-column {
-    float: left;
+    float: right;
     width: 20%;
+    height: 75%;
     padding: 0 10px;
     align-items: center;
   }
 /* Remove extra left and right margins, due to padding in columns */
 .menu-row {
     margin: 0 -5px;
+    padding: 5px;
 }
 
 /* Clear floats after the columns */
@@ -229,8 +231,6 @@ video{
   content: "";
   display: table;
   clear: both;
-  align-items: center;
-  display:block;
 }
 
 /* Style the counter cards */
@@ -238,11 +238,12 @@ video{
   box-shadow: 0 4px 8px 0 rgba(43, 80, 170, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 7px;
   justify-content: center;
   background-color: var(--kaiseki-grey);
-  border-style:solid;
-  border: 3px;
+  border-style:outset;
+  border-color: var(--kaiseki-red);
+  border: 10px;
   align-items: center;
   display:flex;
   justify-content: center;
@@ -251,4 +252,40 @@ video{
 .menu-section-drinks{
     display: flex;
     justify-content: center;
+}
+.menu-section-drinks-header{
+    text-align: center;
+}
+.menu-section-starters-header{
+    text-align: center;
+}
+.menu-section-main-header{
+    text-align: center;
+}
+.menu-section-desserts-header{
+    text-align: center;
+}
+.main-footer{
+    background-color: var(--kaiseki-blue);
+    border-radius: 7px;
+    bottom: 0;
+    position:relative;
+    width: 100%;
+    text-align: center;
+    padding: 0.01px;
+}
+.footer-container{
+
+}
+.footer-row{
+
+}
+.footer-col{
+
+}
+.menu-images{
+    height:80%;
+    width:80%;
+    display: flex;
+    align-self:center;
 }
