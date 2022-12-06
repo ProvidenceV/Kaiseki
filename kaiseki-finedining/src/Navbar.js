@@ -13,7 +13,7 @@ function Navbar(){
    }else if(view === "restauraunt"){
         navType = <RestaurauntNav />;
    }
-
+//
     return(
         <>
         <nav className="nav">
